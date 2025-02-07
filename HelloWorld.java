@@ -7,5 +7,7 @@ class HelloWorld {
         System.out.println("hi, Bob"); 
         
         System.out.println("hi, Charlie"); 
+        System.out.println("hi, Denise"); 
+
     }
 }
