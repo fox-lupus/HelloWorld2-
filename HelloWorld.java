@@ -8,6 +8,6 @@ class HelloWorld {
         
         System.out.println("hi, Charlie"); 
         System.out.println("hi, Denise"); 
-
+        System.out.println("hi, Ester"); 
     }
 }
