@@ -5,6 +5,8 @@ class HelloWorld {
         System.out.println("Hello, World!");
 
         System.out.println(new Date().toString()); 
+        Runtime runtime = Runtime.getRuntime();
+        System.out.printf("free memory for JVM %d (MB) \n", runtime.freeMemory() / (1024 * 1024) ); 
 
         System.out.println("hi, Alice"); 
         System.out.println("hi, Bob"); 
